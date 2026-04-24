@@ -1,0 +1,23 @@
+{
+  "model": "ResNet50 pretrained ImageNet, fine-tuned on Kaggle chest_xray",
+  "training_dataset": "Kaggle Chest X-Ray Pneumonia",
+  "annotation_dataset": "NLM OpenI NLMCXR (unlabelled)",
+  "label_classes": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "num_epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "kaggle_test_accuracy": 0.8478,
+  "kaggle_test_f1": 0.8497,
+  "kaggle_test_auc": 0.9268,
+  "majority_baseline_accuracy": 0.625,
+  "nlmcxr_images_predicted": 7467,
+  "nlmcxr_mean_confidence": 0.8292,
+  "nlmcxr_low_conf_count": 1633,
+  "annotations_completed": 500,
+  "human_ai_agreement_rate": 0.8,
+  "cohens_kappa": 0.6002,
+  "evaluated_at": "2026-04-23T05:00:54.891262"
+}

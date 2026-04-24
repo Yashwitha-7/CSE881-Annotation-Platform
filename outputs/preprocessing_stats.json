@@ -1,0 +1,30 @@
+{
+  "raw_images": 7470,
+  "corrupted_removed": 0,
+  "duplicates_removed": 3,
+  "clean_images": 7467,
+  "unique_patients": 3851,
+  "target_resolution": "224x224",
+  "output_channels": 3,
+  "contrast_enhancement": "CLAHE (clip_limit=0.03)",
+  "normalisation": "[0, 1]",
+  "dataset_mean_per_channel": [
+    0.47934800386428833,
+    0.47934800386428833,
+    0.47934800386428833
+  ],
+  "dataset_std_per_channel": [
+    0.24799342453479767,
+    0.24799342453479767,
+    0.24799342453479767
+  ],
+  "split_train": 5224,
+  "split_val": 1136,
+  "split_test": 1107,
+  "view_distribution": {
+    "other": 6818,
+    "frontal": 454,
+    "lateral": 195
+  },
+  "xml_linkage_column": "xml_report_id"
+}
