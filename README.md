@@ -1,6 +1,7 @@
 # AI-Assisted Human Annotation Platform for Medical Chest X-Ray Images
 
 **CSE 881 — Course Project**
+
 Velamuru Sai Yashwitha Reddy | Jampala Harshitha | Duke Ethan | Gagan Anandan
 
 ---
